@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int tambah (int a, int b) //parameter penjumlahan
+{
+    int hasil1;
+    hasil1=a+b;
+    return hasil1;
+}
+
+int main()
+{
+
+    int hasil1,a,b;
+    cout << "Nilai a = ";
+    cin >> a;
+    cout << "Nilai b = ";
+    cin >> b;
+
+    hasil1 = tambah (a, b);
+    cout << "Hasil "<<a<<" + " <<b<<" = "<< hasil1 << endl;
+}
