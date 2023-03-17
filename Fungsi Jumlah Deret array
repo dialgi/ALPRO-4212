@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+void jumlahtotal(int arr[],int n){
+   int total=0;
+
+   for(int i=0;i<n;i++){
+      total+=arr[i];
+   }
+
+   cout<<"Total jumlah array adalah: " <<total<<endl;
+}
+
+int main() {
+   int arr[4];
+
+   for(int i=0;i<4;i++){
+      cout<<"input angka ke " <<i+1<<" = ";
+      cin>>arr[i];
+   }
+
+   jumlahtotal(arr, 4);
+
+
+}
